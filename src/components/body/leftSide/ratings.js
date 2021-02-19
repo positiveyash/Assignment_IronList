@@ -14,7 +14,7 @@ class Ratings extends Component {
             <li className="my-3">
               <a
                 className="d-block u-link-v5 g-color-gray-dark-v4 g-color-primary--hover"
-                href="#" onClick ={() => this.props.handleClickRatingSelection('5 ')}
+                href="#" onClick ={() => this.props.handleClickRatingSelection('5')}
               >
               <img src={fivestar} style={{height:"70px" , width:"80px"}} />
                 <span className="float-right g-font-size-12">{this.props. laptopratingCount}</span>

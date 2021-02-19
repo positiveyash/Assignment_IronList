@@ -16,7 +16,7 @@ class RightSide extends Component {
             <ul className="group clearfix ">
               <span className="row justify-content-center "> </span>
               
-              <div className="col "style={{ color:'black'}} align="center"> {Name} </div>
+              {/* <div className="col "style={{ color:'black'}} align="center"> {Name} </div> */}
               <ListItem products={products} />
             </ul>
        

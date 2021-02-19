@@ -4,7 +4,7 @@ import ReactBootstrapSlider from "react-bootstrap-slider";
 class ShowMinValue extends Component {
     render(){
         return(
-        <div className="col-md-6" >{this.props.value}</div>
+        <div className="col-md-6 " >{this.props.value}</div>
     );
     }
 }
@@ -12,7 +12,7 @@ class ShowMinValue extends Component {
 class ShowMaxValue extends Component {
     render(){
         return(
-        <div className="col-md-6" >{this.props.value}</div>
+        <div className="col-md-6 " >{this.props.value}</div>
     );
     }
 }

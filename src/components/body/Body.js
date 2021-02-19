@@ -10,8 +10,9 @@ class Body extends Component {
   constructor(props) {
     super(props);
     this.state = {
-      
-      pageOfItems: [],
+      offset: 0,
+      perPage: 10,
+          currentPage: 0,
       displayProducts: [],
       filterProperties: {
         category: null,
