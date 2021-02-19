@@ -10,9 +10,7 @@ class Body extends Component {
   constructor(props) {
     super(props);
     this.state = {
-      offset: 0,
-      perPage: 10,
-          currentPage: 0,
+    
       displayProducts: [],
       filterProperties: {
         category: null,
@@ -25,16 +23,12 @@ class Body extends Component {
           step:1,
           min: 0,
           max: 1000
-        }
+        },
       }
     };
   }
 
-  onChangePage=(pageOfItems)=> {
-    // update state with new page of items
-    this.setState({ pageOfItems: pageOfItems });
-    }
-    
+
 
   componentWillMount = () => {
     this.props.getAllProducts();
@@ -171,9 +165,11 @@ class Body extends Component {
 }
 const mapStateToprops = state => ({
   allProducts: state.products.allProducts,
-  trendingProducts: state.products.trendingItems
+  trendingProducts: state.products.trendingItems,
 
 });
+
+
 
 export default connect(
   mapStateToprops,

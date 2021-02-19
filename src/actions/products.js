@@ -1,6 +1,7 @@
 import trendingItems from '../mock/trendingItems'
 import allProducts from '../mock/productInfo'
 
+
 import { GET_TRENGING_ITEMS, GET_All_ITEMS } from "../constant/types";
 
 
@@ -19,4 +20,6 @@ export const getAllProducts = () => {
         payload: allProducts
     };
 }
+
+
 

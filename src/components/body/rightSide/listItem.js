@@ -46,7 +46,7 @@ class ListItem extends Component {
                     
                     
                     </div>
-                    <div style={{color:"black",paddingLeft:"5px"}} >Price : {products.price}{products.currency}
+                    <div style={{color:"black",paddingLeft:"5px"}} >Price :{products.currency} {products.price}
                   
                     </div>
                  

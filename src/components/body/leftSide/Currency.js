@@ -12,7 +12,7 @@ class Currency extends Component {
   <div className="dropdown-content">
     <a   onClick ={() => this.props.handleClickCurrencySelection('¥')}>Japan</a>
     <a  onClick ={() => this.props.handleClickCurrencySelection('₹')}>India</a>
-    <a   onClick ={() => this.props.handleClickCurrencySelection('$')}>US</a>
+    <a   onClick ={() => this.props.handleClickCurrencySelection('£')}>Egypt</a>
   </div>
 </div>
         </div>
